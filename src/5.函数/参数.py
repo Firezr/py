@@ -51,7 +51,7 @@ def print_user_info3( name ,  age  , sex = '男' , * hobby):
     print('年龄：{}'.format(age) , end = ' ')
     print('性别：{}'.format(sex) ,end = ' ' )
     print('爱好：{}'.format(hobby))
-    return;
+    return
 
 # 调用 print_user_info 函数
 print_user_info3( '两点水' ,18 , '女', '打篮球','打羽毛球','跑步')
@@ -64,7 +64,7 @@ def print_user_info4( name ,  age  , sex = '男' , ** hobby ):
     print('年龄：{}'.format(age) , end = ' ')
     print('性别：{}'.format(sex) ,end = ' ' )
     print('爱好：{}'.format(hobby))
-    return;
+    return
 
 # 调用 print_user_info 函数
 print_user_info4( name = '两点水' , age = 18 , sex = '女', hobby = ('打篮球','打羽毛球','跑步'))
@@ -76,7 +76,7 @@ def print_user_info5( name , *, age  , sex = '男' ):
     print('昵称：{}'.format(name) , end = ' ')
     print('年龄：{}'.format(age) , end = ' ')
     print('性别：{}'.format(sex))
-    return;
+    return
 
 # 调用 print_user_info 函数
 print_user_info5( name = '两点水' ,age = 18 , sex = '女' )

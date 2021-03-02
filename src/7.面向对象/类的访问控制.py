@@ -12,7 +12,7 @@ class UserInfo(object):
 
 
 if __name__ == '__main__':
-    userInfo = UserInfo('两点水', 23, 347073565);
+    userInfo = UserInfo('两点水', 23, 347073565)
     # 打印所有属性
     print(dir(userInfo))
     # 打印构造函数中的属性

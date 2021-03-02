@@ -27,11 +27,11 @@ class ClassB(ClassA):
         self.sex = sex
 
 if __name__ == '__main__':
-    b = ClassB('两点水', 23, 347073565, 1);
+    b = ClassB('两点水', 23, 347073565, 1)
     print(b.get_account())
 
 if __name__ == '__main__':
-    b2 = ClassB('两点水', 23, 347073565, '男');
+    b2 = ClassB('两点水', 23, 347073565, '男')
     # 打印所有属性
     print(dir(b2))
     # 打印构造函数中的属性
